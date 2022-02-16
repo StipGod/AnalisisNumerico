@@ -1,0 +1,4 @@
+Whitley, D. A genetic algorithm tutorial. Stat Comput 4, 65–85 (1994). https://doi.org/10.1007/BF00175354
+Cigononi, P., Montani, C., & Scopigno, R. (2022). A comparison of mesh simplification algorithms. Retrieved 16 February 2022, from https://www.sciencedirect.com/science/article/abs/pii/S0097849397000824
+Campomanes-Álvarez, B. Rosario, Cordón, Oscar, and Damas, Sergio. ‘EvolutionaryMulti-objective Optimization for Mesh Simplification of 3D Open Models’. 1 Jan. 2013 : 375 – 390.
+
