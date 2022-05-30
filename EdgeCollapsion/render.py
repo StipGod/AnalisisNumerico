@@ -22,17 +22,18 @@ def render(V,E):
     angleX = angleY = angleZ = 0
     
     #position = [width/2, height/2]
-    scale = 18 #scale for face
+    #scale = 18 #scale for lowlaurana
     #scale = 2000 #scale for bunny
+    scale = 40 #scale for face 2
     speed = 0.1
     run = True
 
     def connectV(i,j,V):
-        pygame.draw.line(window,white,(V[i][0],V[i][1]),(V[j][0],V[j][1]))
+        pygame.draw.line(window,black,(V[i][0],V[i][1]),(V[j][0],V[j][1]))
 
     while run:
         clock.tick(fps)
-        screen.fill(black)
+        screen.fill(white)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
@@ -83,7 +84,7 @@ def render(V,E):
             projectedV[index] = (x,y)
             index += 1
 
-            pygame.draw.circle(window,blue,(x,y),1)
+            pygame.draw.circle(window,blue,(x,y),2)
 
         for e in E:
             connectV(e[0],e[1],projectedV)    
